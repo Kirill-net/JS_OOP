@@ -16,10 +16,10 @@ export class Character {
             throw new Error("нельзя повысить левел умершего");
             
         }
-    };
+    }
     damage(points) {
         if (this.health >=0) {
         this.health = this.health - (points * (1 - (this.defence / 100)))
         }
-    };
-};
+    }
+}

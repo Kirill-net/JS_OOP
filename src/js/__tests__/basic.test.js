@@ -30,18 +30,6 @@ test.each(characters)("characters test", (hero, expected) => {
   expect(result.defence).toEqual(expected.defence);
   expect(result.health).toEqual(100);
   expect(result.level).toEqual(1);
-});
+}
+);
 
-// test('character tests', () => {
-//   const hero = {
-//     "attack": 40, 
-//     "defence": 10,
-//     "health": 100, 
-//     "level": 1,
-//     "name": "мечник",
-//     "type": "Zombie",
-//   }
-  
-//   let data = new Multi(hero.name, hero.type)
-//   expect(data).toEqual(hero);
-// })

@@ -9,7 +9,7 @@ test('levelup test', () => {
         catch (error) {
           return "Некорректные данные"
         }
-    };
+    }
 
     let bob = multiHeros('bob', 'Zombie')
     bob.health = 0

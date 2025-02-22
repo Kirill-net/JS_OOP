@@ -15,4 +15,4 @@ export class Multi extends Character {
         this.defence = 40;
         }
     }
-};
+}
